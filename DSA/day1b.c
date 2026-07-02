@@ -9,7 +9,7 @@ int main(){
     current_size--;
     printf("Array after deletion:\n ");
     for(int i=0;i<current_size;i++){
-        printf("%d ",arr[i]);
+        printf("index %d ",arr[i]);
     }
     return 0;
 }
