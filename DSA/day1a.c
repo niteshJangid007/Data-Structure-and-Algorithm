@@ -1,4 +1,4 @@
-#include<schannel.h>
+#include<stdio.h>
 int main(){
     int number[6]={10,20,40,50,60};
      int current_size=5;
