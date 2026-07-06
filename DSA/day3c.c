@@ -1,4 +1,13 @@
 #include<stdio.h>
+void traversing(){
+    int arr[5] = {10, 20, 30, 40, 50};
+
+    printf("Array elements are:\n");
+
+    for(int i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+}
 void insertion() {
     int number[6]={10,20,40,50,60};
      int current_size=5;
@@ -47,11 +56,33 @@ void searching(){
     
     printf("The size of the array is: %d\n", size);
 }
+void addition(){
+    int arr[]={5,10,15,20,25};
+    int size=sizeof(arr)/sizeof(arr[0]);
+    int sum=0;
+    for(int i=0;i<size;i++){
+        sum+=arr[i];
+    }
+    printf("The sum of the array elements is: %d\n", sum);
+}
+void multiplication(){
+     int arr[]={5,10,15,20,25};
+    int size=sizeof(arr)/sizeof(arr[0]);
+    int product=1;
+    for(int i=0;i<size;i++){
+        product*=arr[i];
+    }
+    printf("The product of the array elements is: %d\n", product);
+}
 int main(){
     insertion();
     printf("\n");
     deletion();
     printf("\n");
     searching();
+    printf("\n");
+    addition();
+    printf("\n");
+    multiplication();
     return 0;
 }
