@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/IOT!/DSA/DSA",
-      "program": "d:/IOT!/DSA/DSA/build/Debug/outDebug",
+      "cwd": "d:/IOT!/DSA/Data-Structure-and-Algorithm/DSA",
+      "program": "d:/IOT!/DSA/Data-Structure-and-Algorithm/DSA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
